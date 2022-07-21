@@ -17,8 +17,9 @@ export function Country(props) {
 
 
     return (
-        <li className={theme  ? `${styles.country} ${styles.light}` : styles.country} id={props.id}>
-            <Link to={`countries/${props.country.name.common}`} ref={props.observar ? target : null} id={props.id}  >
+        <li>
+            <Link to={`countries/${props.country.name.common}`} ref={props.observar ? target : null} id={props.id}
+            className={theme  ? `${styles.country} ${styles.light}` : styles.country}>
                 <div className={styles["img-container"]}>
                     <img className={styles.img} src={props.country.flags.png} alt="bandera" loading="lazy" />
                 </div>

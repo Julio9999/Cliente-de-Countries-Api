@@ -8,14 +8,14 @@ p, h2{
     color: inherit;
     box-shadow: inherit;
     background-color: var(--dark-blue-Dark-Mode-Elements);
-    display: flex;
-    flex-direction: column;
     width: auto;
-    align-items:stretch;
     height: 100%;
     align-self: stretch;
     transition: var(--transition);
     border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .country:hover{
@@ -27,6 +27,8 @@ p, h2{
     display: flex;
     max-width: 100%;
     align-items: stretch;
+    flex: 1;
+    max-height: 50%;
 }
 
 .img{
@@ -38,6 +40,7 @@ p, h2{
 }
 
 .text-container{
+    max-height: 50%;
     display: flex;
     padding-top: 2rem;
     padding-left: 1.5rem;

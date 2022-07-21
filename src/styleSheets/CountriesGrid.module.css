@@ -1,0 +1,32 @@
+.country-container{
+    gap: 3rem;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: auto;
+    box-sizing: border-box;
+    padding: 5rem 3rem;
+    margin-bottom: 2rem;
+    position: relative;
+    align-items: stretch;
+}
+
+.button-container{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    padding-left:  1rem;
+}
+
+
+@media screen and (min-width: 1024px){
+    .country-container{
+        gap: 5rem;
+    }
+
+    .button-container{
+        padding-left: 3rem;
+    }
+}
+

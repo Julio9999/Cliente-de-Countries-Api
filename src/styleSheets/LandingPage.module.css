@@ -1,0 +1,14 @@
+body{
+    background-color: var(--very-dark-blue-dark-mode-background);
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    color: var(--white-dark-mode-text-light-mode-elements);
+    max-width: 1440px;
+    min-width: 375px;
+    transition: var(--transition);
+}
+
+.light{
+    background-color:var(--very-light-gray-light-mode-background);
+    color: var(--white-dark-mode-text-light-mode-elements);
+}

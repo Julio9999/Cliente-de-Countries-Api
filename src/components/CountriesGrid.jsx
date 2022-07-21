@@ -42,7 +42,7 @@ export function CountriesGrid({ search, region }) {
     useEffect(() => {
             const searchUrl = search
                 ? "name/" + search
-                : region ? "region/" + region : "region/oceania"
+                : region ? "region/" + region : "all"
             setIsLoading(true)
             getData(searchUrl).then(data => {
                 const array = sliceArray(data);
